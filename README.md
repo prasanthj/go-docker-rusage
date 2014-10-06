@@ -1,0 +1,3 @@
+# What does it do #
+
+This is an experimental project to learn two new technologies (go and docker). The idea of this project is to run a service in docker container and having many clients running from different docker container requesting information from the service. The go application is a client-server app where server when receives request from client will send its own resource usage information back to client. The client just decodes the response, converts the response to more readable form and will just print it.
