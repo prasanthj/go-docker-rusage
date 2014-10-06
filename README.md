@@ -8,14 +8,12 @@ How to run on Mac OS X
 
 To run docker on Mac OS X we need Boot2Docker.
 
-### Installing boot2docker ###
+### Setting up docker ###
   - Install Boot2Docker from [here].
   - After installing, from terminal, run `boot2docker init` to initialize boot2docker.
   - Run `boot2docker start` to start boot2docker and export `DOCKER_HOST` as show at the end of command. It usually will be
 `export DOCKER_HOST=tcp://192.168.59.103:2375`.
-
-
-After exporting `DOCKER_HOST` we can run docker commands.
+  - After exporting `DOCKER_HOST` we can run docker commands.
   - Clone this repository `git clone https://prasanth_j@bitbucket.org/prasanth_j/go-docker-client-server-rusage.git go-docker`
 
 ### Run go rusage server ###
